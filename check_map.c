@@ -30,26 +30,3 @@ int isPerimeterSurroundedBy(int **map, int rows, int *cols)
     }
     return (0);
 }
-
-// int main() {
-//     // Example of a non-rectangular map
-//     int *map[] = {
-//         (int[]){1, 1, 1, 1},
-//         (int[]){1, 0, 1},
-//         (int[]){1, 0, 1},
-//         (int[]){1, 1, 1, 1, 1}
-//     };
-
-//     int rows = 4;
-//     int cols[] = {4, 3, 3, 4};
-//     int valueToCheck = 1;
-
-//     // Check if the perimeter is surrounded by the value
-//     if (isPerimeterSurroundedBy(map, rows, cols, valueToCheck)) {
-//         printf("The perimeter is surrounded by %d.\n", valueToCheck);
-//     } else {
-//         printf("The perimeter is not surrounded by %d.\n", valueToCheck);
-//     }
-
-//     return 0;
-// }
